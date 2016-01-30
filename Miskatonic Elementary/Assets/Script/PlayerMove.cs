@@ -6,18 +6,15 @@ public class PlayerMove : MonoBehaviour {
 	private Rigidbody rb;
 	public int speed;
 	private SpriteRenderer ren;
-	public bool pickup;
 	private Animator anim;
 	private Collider item;
-	private bool canPickup;
+	private Vector3 dropPosition = Vector3.zero;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 		ren = GetComponentInChildren<SpriteRenderer> ();
-		pickup = false;
 		anim = GetComponentInChildren<Animator> ();
-		canPickup = true;
 	}
 	
 	// Update is called once per frame
@@ -40,27 +37,23 @@ public class PlayerMove : MonoBehaviour {
 		} else {
 			anim.Play ("walk");
 		}
-			
-		if (Input.GetKeyDown (KeyCode.E) && pickup == true) {
+
+		if (Input.GetKeyDown (KeyCode.E) && item != null) {
+			Debug.Log ("===== item drop");
 			item.transform.parent = null;
-			pickup = false;
 			item = null;
+			dropPosition = transform.position;
 		}
 	}
 
 	void OnTriggerStay(Collider hitInfo){
 		if(hitInfo.tag == "Item"){
-			if (Input.GetKeyDown (KeyCode.E) && pickup == false && canPickup == true) {
+			Debug.Log ("===== item stay");
+			if (Input.GetKeyDown (KeyCode.E) && item == null && transform.position != dropPosition && rb.velocity == Vector3.zero) {
+				Debug.Log ("===== item pickup");
 				hitInfo.transform.parent = transform;
-				pickup = true;
 				item = hitInfo;
-				canPickup = false;
 			}
 		}
 	}
-
-	void OnTriggerExit(){
-		canPickup = true;
-	}
-
 }
