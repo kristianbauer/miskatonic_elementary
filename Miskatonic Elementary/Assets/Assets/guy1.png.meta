@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 136edd74bc57b41a283d6c71a07466ca
+timeCreated: 1453524033
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guy1_0
+    21300002: guy1_1
+    21300004: guy1_2
+    21300006: guy1_3
+    21300008: guy1_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: guy1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 186
+        height: 364
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 364}
+        - {x: -36, y: 360}
+        - {x: -75, y: 331}
+        - {x: -93, y: 295}
+        - {x: -93, y: 222}
+        - {x: -92, y: 216}
+        - {x: -93, y: 209}
+        - {x: -93, y: 69}
+        - {x: -79, y: 55}
+        - {x: -66, y: 59}
+        - {x: -77, y: 0}
+        - {x: -26, y: 0}
+        - {x: 2, y: 51}
+        - {x: 35, y: 60}
+        - {x: 17, y: 6}
+        - {x: 18, y: 0}
+        - {x: 69, y: 0}
+        - {x: 93, y: 57}
+        - {x: 93, y: 334}
+        - {x: 35, y: 364}
+    - name: guy1_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 376
+        width: 201
+        height: 362
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.559998, y: 28}
+        - {x: 112.56, y: 17}
+        - {x: 112.56, y: 60}
+        - {x: 110.56, y: 62}
+        - {x: 64.56, y: 75}
+        - {x: 90.56, y: 171}
+        - {x: 102.56, y: 269}
+        - {x: 71.56, y: 357}
+        - {x: 42.559998, y: 362}
+        - {x: -43.440002, y: 362}
+        - {x: -47.440002, y: 360}
+        - {x: -88.44, y: 314}
+        - {x: -88.44, y: 168}
+        - {x: -67.44, y: 19}
+        - {x: -75.44, y: 0}
+        - {x: -33.440002, y: 0}
+        - {x: -30.440002, y: 26}
+        - {x: -21.440002, y: 62}
+        - {x: -0.44000244, y: 51}
+    - name: guy1_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 374
+        width: 251
+        height: 364
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.5, y: 364}
+        - {x: -116.5, y: 317}
+        - {x: -125.5, y: 195}
+        - {x: -125.5, y: 74}
+        - {x: -111.5, y: 78}
+        - {x: -100.5, y: 88}
+        - {x: -90.5, y: 106}
+        - {x: -74.5, y: 147}
+        - {x: -73.5, y: 151}
+        - {x: -73.5, y: 149}
+        - {x: -74.5, y: 148}
+        - {x: -74.5, y: 143}
+        - {x: -76.5, y: 143}
+        - {x: -77.5, y: 116}
+        - {x: -79.5, y: 38}
+        - {x: -1.5, y: 5}
+        - {x: 6.5, y: 20}
+        - {x: 8.5, y: 51}
+        - {x: 8.5, y: 56}
+        - {x: 14.5, y: 0}
+        - {x: 50.5, y: 0}
+        - {x: 60.5, y: 1}
+        - {x: 125.5, y: 58}
+        - {x: 125.5, y: 265}
+        - {x: 70.5, y: 364}
+    - name: guy1_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 245
+        height: 364
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.5, y: 364}
+        - {x: 3.5, y: 364}
+        - {x: -49.5, y: 334}
+        - {x: -69.5, y: 313}
+        - {x: -74.5, y: 211}
+        - {x: -122.5, y: 180}
+        - {x: -122.5, y: 143}
+        - {x: -96.5, y: 91}
+        - {x: -31.5, y: 20}
+        - {x: -47.5, y: 0}
+        - {x: -1.5, y: 0}
+        - {x: -0.5, y: 3}
+        - {x: 37.5, y: 60}
+        - {x: 39.5, y: 76}
+        - {x: 46.5, y: 6}
+        - {x: 47.5, y: 0}
+        - {x: 95.5, y: 0}
+        - {x: 116.5, y: 44}
+        - {x: 122.5, y: 63}
+        - {x: 122.5, y: 324}
+    - name: guy1_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 283
+        height: 364
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 114.5, y: 349}
+        - {x: 87.5, y: 364}
+        - {x: 19.5, y: 364}
+        - {x: -41.5, y: 342}
+        - {x: -65.5, y: 142}
+        - {x: -137.5, y: 130}
+        - {x: -141.5, y: 122}
+        - {x: -141.5, y: 99}
+        - {x: -102.5, y: 75}
+        - {x: -70.5, y: 57}
+        - {x: -27.5, y: 26}
+        - {x: -25.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 16.5, y: 27}
+        - {x: 56.5, y: 60}
+        - {x: 58.5, y: 76}
+        - {x: 65.5, y: 6}
+        - {x: 66.5, y: 0}
+        - {x: 114.5, y: 0}
+        - {x: 141.5, y: 46}
+        - {x: 141.5, y: 297}
+        - {x: 136.5, y: 330}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
