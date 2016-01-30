@@ -48,7 +48,6 @@
      <Compile Include="Assets\PlayerCollision.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\Script\PlayerMove.cs" />
-     <Compile Include="Assets\Script\chopTree.cs" />
      <Compile Include="Assets\Script\lerpToPlayer.cs" />
      <Compile Include="Assets\placeObj.cs" />
  <Reference Include="UnityEngine.UI">
