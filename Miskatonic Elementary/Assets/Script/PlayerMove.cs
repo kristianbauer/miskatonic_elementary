@@ -6,13 +6,14 @@ public class PlayerMove : MonoBehaviour {
 	private Rigidbody rb;
 	public int speed;
 	private SpriteRenderer ren;
-	public bool chop;
 	private Animator anim;
+	private Collider item;
+	private Vector3 dropPosition = Vector3.zero;
+
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 		ren = GetComponentInChildren<SpriteRenderer> ();
-		chop = false;
 		anim = GetComponentInChildren<Animator> ();
 	}
 	
@@ -33,13 +34,26 @@ public class PlayerMove : MonoBehaviour {
 
 		if (rb.velocity == Vector3.zero) {
 			anim.Play ("stand");
-			if (Input.GetKeyDown (KeyCode.E)) {
-				chop = true;
-			}
 		} else {
 			anim.Play ("walk");
 		}
-			
 
+		if (Input.GetKeyDown (KeyCode.E) && item != null) {
+			Debug.Log ("===== item drop");
+			item.transform.parent = null;
+			item = null;
+			dropPosition = transform.position;
+		}
+	}
+
+	void OnTriggerStay(Collider hitInfo){
+		if(hitInfo.tag == "Item"){
+			Debug.Log ("===== item stay");
+			if (Input.GetKeyDown (KeyCode.E) && item == null && transform.position != dropPosition && rb.velocity == Vector3.zero) {
+				Debug.Log ("===== item pickup");
+				hitInfo.transform.parent = transform;
+				item = hitInfo;
+			}
+		}
 	}
 }
